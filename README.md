@@ -67,14 +67,11 @@ nvm use stable
 npm install
 ```
 
-After you push you successfully to your repository, Codeship will run your Test Pipeline commands, which is when you can publish your project with Surge:
+After you push you successfully to your repository, Codeship will run your Test Pipeline commands:
 
 ```sh
 # Run your tests (if you have any)
 npm test
-
-# Run Surge
-surge --project ./ --domain example-codeship.surge.sh
 ```
 
 ### Add Environment Variables
